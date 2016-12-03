@@ -1,0 +1,35 @@
+{
+  "name": "@genera/studies-service",
+  "version": "0.1.0",
+  "description": "Microservice managing studies stored in the GENERA database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha app/**/*.unit-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiologyFortified/genera-studies-service.git"
+  },
+  "engines": {
+    "node": ">=6.9"
+  },
+  "keywords": [
+    "GENERA",
+    "science",
+    "studies"
+  ],
+  "author": "Biology Fortified, Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BiologyFortified/genera-studies-service/issues"
+  },
+  "homepage": "https://github.com/BiologyFortified/genera-studies-service#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.17.2",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "mongoose": "^4.7.1"
+  }
+}
