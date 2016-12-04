@@ -4,7 +4,8 @@
   "description": "Microservice managing studies stored in the GENERA database.",
   "main": "app.js",
   "scripts": {
-    "test": "mocha app/**/*.unit-test.js"
+    "test": "mocha app/**/*.unit-test.js",
+    "ci-test": "istanbul cover _mocha app/**/*.unit-test.js && codecov"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
   "homepage": "https://github.com/BiologyFortified/genera-studies-service#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "codecov": "^1.0.1",
+    "istanbul": "^0.4.5",
     "lodash": "^4.17.2",
     "mocha": "^3.2.0"
   },
