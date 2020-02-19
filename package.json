@@ -27,7 +27,7 @@
   "homepage": "https://github.com/BiologyFortified/genera-studies-service#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "codecov": "^1.0.1",
+    "codecov": "^3.6.5",
     "istanbul": "^0.4.5",
     "lodash": "^4.17.2",
     "mocha": "^3.2.0"
